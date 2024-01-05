@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIVA WEDDING PLANER</title>
+    <link rel="stylesheet" href="phone.css">
+    <style>
+        
+        body{
+            background-color: rgba(20,20,20,1);;
+            
+            
+        }
+        .left{
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .navbar{
+            background-color: rgb(215, 6, 125);
+            border-radius: 30px;
+            z-index: 100;
+            
+        }
+        .navbar ul{
+            background-color: #fff1ed;
+            position: fixed;
+            margin: -12px;
+            box-sizing: border-box;
+            z-index: inherit;
+            
+        }
+        .navbar ul li{
+
+        
+            float:left;
+            list-style: none; 
+            margin: 16px 83px;
+            
+        }
+        /* .navbar li ::before{
+            content: "❤";
+            color: palevioletred;
+        } */
+        .navbar ul li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: black;
+            font-size: 21px;
+        }
+        .navbar ul li a:hover{
+            color: rgb(243, 242, 246);
+            display: inline-block;
+            background-color: rgb(210, 158, 27);
+            
+            
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 5px 19px;
+            margin-top: -41px;
+        }
+        .search input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        #venues{
+            margin-top: 13%;
+
+        }
+        .titlevenues{
+            font-size: 56px;
+            color: white;
+            margin: auto;
+            width: 300px;
+            list-style: none;
+            padding-top: 72px;
+            padding-bottom: 20px;
+        }
+        .venuesselection{
+            width: 500px;
+            margin-left: 241px;
+            list-style: none;
+            padding-bottom: 10px;
+
+        }
+        .venuesselection ul li{
+
+            /* padding-left: 106px; */
+            font-size: 30px;
+            color: red;
+            padding-top: -20px;
+            list-style: none;
+            float: left;
+            text-decoration: none;
+
+
+            
+        }
+        .one{width: 548px;
+            float: left;
+            /* padding: 150 inherit;
+            padding-left: 177px; */
+            padding-right: 10px;
+            text-decoration: none;
+            margin-left: -133px;
+        }
+        .two{width: 548px;
+            float: right;
+            padding: 150 inherit;
+            padding-left: 531px;
+            margin-top: -346px;
+        }
+        .inter{float: right;
+
+        }
+        .venuesselection ul li a{
+            text-decoration: none;
+            margin-left: 350px;
+            color: white;
+            margin-top: 42px;
+        }
+        #information h1 p {
+            
+            padding-left: 427px;
+            font-style: italic;
+            color: rgb(243, 237, 242);
+            font-size: 56px;
+            margin-top: 236px;
+        }
+        #information li p{
+            border-bottom: 18px solid rgb(246, 41, 119);
+            border-radius: 106px;
+            font-size: 23px;
+            padding-top: 0px;
+            margin-top: 28px;
+            color: rgba(187,191,166,1);
+            padding: 117px;
+                
+            margin-top: -108px;
+            
+
+        }
+        #information img{
+            display: block;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            z-index: 20;
+            opacity: 1;
+            visibility: inherit;
+            margin-top: 14%;
+        }
+        #Contact{
+            background-color:rgb(227, 106, 92)
+        }
+        .separator-holder separator-right{
+            border-color: #f9f0f0;
+        }
+        .-right {  width: 192px;
+            padding: 171px;
+            margin: 164px;
+            margin-top: -432px;
+            height: 12px;
+            position: absolute;
+            display: inline-block;
+            border-top: 2px solid aliceblue;
+        }
+        .sleft{
+            font-style: italic;
+            font-size: 34px;
+        }
+        #Contact ul{
+            width: 500px;
+            padding-left: 10px;
+            font-size: 20px;
+            font-style: oblique;
+        
+        }
+        .sright{
+            width: 500px;
+            float: right;
+            padding-top: 0px;
+            margin-top: -472px;
+            color: antiquewhite;
+            font-size: 35px;
+            font-style: italic;
+            margin-right: 102px;
+            
+        }
+        .form{
+            float: right;
+            margin-right: 186px;
+            width: 500px;
+            margin-top: -431px;
+            background-color: white;
+            border-radius: 10px;
+            height: 419px;
+
+        }
+        .form div{ 
+            padding-left: 10px;
+
+        }
+        
+        .box2{
+            position: absolute;
+            width: 192px;
+            margin-top: -498px;
+            height: 12px;
+            position: absolute;
+            display: inline-block;
+            border-top: 2px solid aliceblue;
+            margin-left: -113px;
+        }
+        .box3{
+            position: absolute;
+            width: 276px;
+            margin-top: -498px;
+            height: 12px;
+            position: absolute;
+            display: inline-block;
+            border-top: 2px solid aliceblue;
+            margin-left: 408px;
+            
+
+        }
+        .domestictext{
+            font-size: 28px;
+            color: white;
+            padding-left: 29px;
+
+
+        }
+        .internationtext{
+            color: white;
+            font-size: 29px;
+            margin-left: 689px;
+            width: 500px;
+            margin-top: -49px;
+
+        }
+        
+        #partners{
+            color: silver;
+        }
+        .line1{
+            border: 0.5px solid white;
+            width: 100%;
+            position: absolute;
+            display: inline-block;
+            border-top: 10px;
+            margin-top: -30px;
+            margin-left: 123px;
+            margin-bottom: 42px;
+        }
+        .ashokaimg{
+            margin-left: 109px;
+
+        }
+        .radisonimg{
+            margin-left: 262px;
+            margin-top: -81px;
+            background-color: white;
+            width: 200px;
+        }
+        #weddingcontent{
+            color: #f9f0f0;
+            font-style:unset;
+        }
+        /* .arrowdesign p{
+            color: red;
+            
+        } */
+        .arrowdesign li::after{
+            margin: 10px;
+        }
+        .arrowdesign li::before{
+            content: "❤";
+            color: palevioletred;
+            display: inline-block;
+            margin-left: -23px;
+            position: absolute;
+            /* margin-top: 10px; */
+        } 
+        /* .arrowdesign li::marker{
+            content: "❤";
+            color: palevioletred;
+        } */
+
+        .arrowdesign li{
+            width: 430px;
+            text-decoration: none;
+            list-style-type: none;
+            margin-top: 16px;
+
+        }
+        .arrowdesign{
+            width: 400px;
+            margin-left: 45px;
+        }
+        .arrowdesign strong{
+            width: 400px;
+            text-align: center;
+            display: inline-block;
+            margin-top: 25px;
+        }
+        .column2{
+            margin-left: 526px;
+            margin-top: -414px;
+        }
+        .column2 ul{
+            margin-top: 20px;
+        }
+        /* .column2 li ::before{
+            margin-top: 10px;
+        }
+        .column2 ul ::after{
+
+        } */
+
+        .column3{
+            margin-left: 980px;
+            margin-top: -507px;
+        }
+        .column3 ul{
+            margin-top: 20px;
+        }
+        /* .navbar ul li ul{
+            width: 200px;
+            margin-left: -192px;
+            height: 150px;
+            margin-top: 24px;
+            position: absolute;
+            display: none;
+            transition: all 0.25s ease 0.25s;
+
+
+        }
+        .navbar ul li ul li a{
+            margin-left: -75px;
+            position: relative;
+
+        }
+        .navbar ul li ul li ul{
+            margin-left: 12px;
+            margin-top: -8px;
+            position: fixed;
+            
+            
+
+        } */
+        /* .navbar ul li ul li ul li a{
+
+        }
+        .navbar ul li ul li ul li:hover{
+            display: initial;
+        } */
+        /* .navbar ul li:focus-within>ul, */
+        /* .navbar ul li:hover>ul{
+            display:initial;
+            position: fixed;
+            transition: all 0.25s ease 0.25s;
+
+            
+            
+        }  */
+        /* .navbar ul li ul li ul:hover>li{
+            display:inherit;
+            position: fixed;
+        }  */
+        
+        .navbar ul li ul{
+            width: 200px;
+            margin-top: 11px;
+            display: none;
+            position: absolute;
+            transition-delay: 0.25s;
+
+
+        }
+        .navbar ul li ul li a{
+            margin-left: -120px;
+        
+            
+
+        }
+        .navbar ul li ul{
+            height: 127px;
+        }
+        .navbar ul li ul li ul{
+            margin: -41px 78px;
+            transition-delay:0.25s;
+            transition-duration: 0.25s;
+            height: 534px;
+        }
+        .navbar ul li:focus-within>ul,
+        .navbar ul li:hover>ul{
+            
+            display: inherit;
+            position: absolute;
+            transition-delay:0.25s;
+            transition-duration: 0.25s;
+
+        }
+        /* .phone{
+
+            display: none;
+        } */
+    @media only screen and (max-width:600px){
+    .phone{
+        width: 35px;
+        height: 5px;
+        background-color: rgb(245, 240, 240);
+        margin: 6px 0;
+    }
+    .navbar{
+        margin: -7px;
+        display: none;
+        
+    }
+    .navbar a{
+        margin: -5px;
+        
+    }
+    .navbar li{
+        display: none;
+    }
+    .search{
+        margin-top: 10px;
+        margin-right: 71px;
+    }
+    .navbar {
+
+    }
+    .vedio{
+        width: 100%;
+        height: 211px;
+        background-color:  rgb(215, 6, 125);
+        margin-top: 30px;
+    
+    }
+    .titlevenues{
+        margin-left: 35px;
+    }
+    .one{
+        margin-left: -279px;
+        width: 300px;
+        margin-bottom: -58px;
+
+    }
+    .domestictext{
+        margin-left: -258px;
+        margin-top: -72px;
+        font-size: 26px;
+    }
+    .two{
+        margin-left: -833px;
+        margin-right: 441px;
+        width: 300px;
+        margin-top: auto;
+        margin-bottom: -50px;
+    }
+    .internationtext{
+        margin: auto;
+        margin-left: -241px;
+        font-size: 26px;
+        
+    }
+    #information h1 p{
+        margin-left: -393px;
+    font-size: 34px;
+    margin-top: 30px;
+    }
+    #information li p{
+        width: 100%;
+    margin-left: -106px;
+    }
+    #Contact ul{
+        width: 100%;
+    margin-left: 0px;
+    }
+    .form{
+        margin: auto;
+    width: 100%;
+    height: auto;
+
+    }
+    .-right{
+        margin-top: -594px;
+    width: 50%;
+    margin-left: 0px;
+    font-size: 0px;
+    display: none;
+
+    }
+    .sright{
+        margin: auto;
+        margin-right: -195px;
+    font-size: 34px;
+    margin-top: 58px;
+    
+    }
+    .box2{
+        display: none;
+    }
+    .box3{
+        display: none;
+    }
+    .ashokaimg{
+        margin: auto;
+    }
+    .radisonimg{
+        margin: auto;
+        margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -40px;
+    }
+    .weddingheilight{
+        margin-top: 133px;
+    }
+    /* #partners h3{
+         margin: auto;
+        position: relative;
+    margin-top: 26px;
+    margin-bottom: 116px; 
+  
+
+    }
+    #partners h3 i{
+
+    }*/
+    #partners{
+        margin-top: 100px;
+
+    } 
+    .arrowdesign strong{
+        margin: auto;
+        width: 100%;
+    margin-left: -103px;
+    font-size: 13px;
+
+    }
+    .arrowdesign li{
+        margin: auto;
+        width: 81%;
+    margin-left: -68px;
+    height: auto;
+    }
+    
+    .column2{
+        margin: auto;
+    }
+    .column3{
+        margin: auto;
+    }
+    
+}
+
+
+
+
+
+
+ 
+
+    </style>
+</head>
+<body>
+    <div class="phone">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <header>
+        
+        <nav class="navbar">
+            <div class="phone">
+                <div> </div>
+                <div> </div>
+                <div> </div>
+                </div>
+            <ul>
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Are You Looking For&nbsp; ></a>
+                    <ul class="dropdown1">
+                        <li><a href="#">destination&nbsp; ></a>
+                            <ul class="dropdown2">
+                                <li><a href="#">Nagpur</a></li>
+                                <li><a href="#">Chandrapur</a></li>
+                                <li><a href="#">Mul</a></li>
+                                <li><a href="#">Gadchiroli</a></li>
+                                <li><a href="destination.html">Chamorshi</a></li>
+                                <li><a href="#">At Your Place</a></li>
+                            </ul></li>
+                        <li><a href="#"> international</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </li>
+            </ul>
+            <br>
+            </nav>
+                 <!-- <img src="https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038_640.jpg" width="100px"> -->
+                <video class="vedio" width="1500" height="700" autoplay muted loop style="position: relative;">
+                <source src="shiva (1).mp4" type="video/mp4">
+                    </video>
+                
+        
+    </header>
+    <header class="left">
+            <!-- <img src="https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038_640.jpg" width="100px">
+            <video width="1500" height="700" autoplay muted loop>
+                <source src="shiva (1).mp4" type="video/mp4">
+            </video> -->
+    </header>
+    <tr>
+    <div id="venues">
+        <li class="titlevenues">VENUES</li>
+    
+        <div class="venuesselection">
+            <div class="domestic">
+            <ul>
+                <li><a href="#"><video class="one" width="900" height="300" autoplay muted loop>
+                    <source src="domestic wedding.mp4" type="video/mp4">
+                </video></a></li>
+
+                
+            </ul>
+            </div>
+            <div class="domestictext">
+                DOMASTIC WEDDING</div>
+        
+        <div>
+
+            <ul>
+                <li><a href="#"><video class="two" width="900" height="290" autoplay muted loop>
+                    <source src="pexels-pavel-danilyuk-8776122 (2160p).mp4" type="video/mp4">
+                </video></a></li>
+                
+            </ul>
+        </div>
+            <div class="internationtext">INTERNATION WEDDING</div>
+        </div>
+<br>
+        <br>
+        <br>
+    </div>
+</div>
+<tr>
+<a id="information">
+    <h1><p>Indian Wedding Specialist</p></h1>
+    <li><p>My Wedding Planning specializes in managing just these occasions; from small, intimate family events to large, spectacular celebrations: weddings are the only thing we do! We can plan your entire wedding from venue bookings, vendor management to the overall design and execution.  We offer a personal service, accompanying you not only on your initial viewing of possible venues but on any subsequent visits and for the duration of your wedding, ensuring total dedication to you.
+
+        At, My Wedding Planning, Destination Wedding Planning is our strongest competence. So if you are planning a destination wedding, let us enhance your wedding experience with our expertise and flawless execution.
+        
+        We offer a wide range of services from full service design and execution to wedding day coordination; and can be as involved as you want us to be. We ensure flawless design, personalized service and exceptional attention to detail. Every detail of your wedding will be meticulously managed by the exceptional planning capabilities, contacts and resources of the My Wedding Planning production team. We will ensure your special day has a ‘wow-factor’
+        10+
+        Years of Experienced
+        120+
+        Weddings Planned
+        15+</p></li>
+        <li>
+        <img src="Untitled.png" alt="network issue" ></li></a>
+    
+    <div id="Contact">
+        <li><a class="sleft">contact us </a><br></li>
+        <ul>
+
+         MWP provides the experience, expertise, and personalized service that result in sheer elegance, style and sophisticated wedding planning and execution. with 100% success rate, we guarantee you a stress-free engagement and a wedding that is absolutely perfect. we only take few orders specially for wedding planning in a year,So that we can give our complete attention to our client’s wedding to make it the most spectacular and memorable event for our clients. 
+         <br><br>
+            
+        feel free to email us, phone us, get free consultation for your wedding with our expert wedding planners.<br><br>
+        <ul  type="disc" >
+            <li>Email us:pvannewar@gmail.com</li>
+            <li>Call us: 7888253067 / 9767555411 </li>
+            <li>Skype id: prajwalasp</li>
+            <li>Sales Office Address:
+                teacher colony</li>
+        </ul>
+        </ul>
+        
+        <li><a class="-right"> </a></li>
+        <li><a class="sright"  > <i>Get Free Consaltation</i> </a></li>
+        <div class="form" >
+            <br>
+            <div>NAME:   <input type="text">
+            </div>
+            <br>
+            <br>
+            <div>
+               EMAIL: <input type="email" name="my Email">
+            </div>
+            <br>
+            <br>
+            <div>
+                YOUR LOCATION: <input type="text">
+            </div>
+            <br>
+            <br>
+            <div>
+                PHONE NUMBER: <input type="tel">
+            </div>
+            <br>
+            <br>
+            <div>PEREFERRED WEDDING LOCATION OR VENUES :<input type="text">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="LOOKING FOR">LOOKING FOR</label>
+                <select name="wedding" >
+                    <option value="Other Requirement">Other Requirement</option>
+                    <option value="Complete Wedding Planning ">Complete Wedding Planning</option>
+                    <option value="Vendor Management">Vendor Management</option>
+                    <option value="Guest Management" >Guest Management</option>
+                    <option value="Venue Booking only" >Venue Booking only</option>
+                    <option value="Wedding packages">Wedding packages</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                FUNCTION DATE: <input type="date">
+            </div>
+            <br>
+            <br>
+        <p><a class="box2"> </a></p>
+        <p><a class="box3"> </a></p>
+        </div></div>
+
+        </div>
+        
+    
+    </div>
+</tr>
+    <br>
+    <br>
+    </tr>
+    
+    <div id="partners">
+        <h3><i>Our Partners</i></h3>
+        <p><a class="line1"> </a></p>
+        <p class="ashokaimg">
+        <img src="https://thenagpurashok.com/wp-content/uploads/2022/10/the-nagpur-ashok-logo-1.2-60h.png" alt="loading img">
+        </p>
+        <p class="radisonimg"> 
+            <img src="https://www.myweddingplanning.in/wp-content/uploads/1280px-Radisson_Blu_logo.svg-1.png" alt="img loading" width="200">
+        </p>
+        
+        
+    </div>
+    <div id="weddingcontent">
+        <h2 class="weddingheilight"
+        style="text-align: center; font-style: italic; color: white; font-size: 37px; color: white; font-size: 37px;">Complete wedding planning Servises</h2>
+        <!-- <p><strong>ONGOING CONSULTATION</strong></p> -->
+        <div class="arrowdesign">
+            <!-- <p>&#8620;</p> -->
+            <ul>
+            <p><strong>ONGOING CONSULTATION</strong></p>
+            <li type="none">
+                We will work with you from conception to completion of your wedding vision! Our complimentary initial meeting will be followed by monthly bridal consultations. We will provide advice and assistance with every planning detail, from budget allocations to menu planning and decor design
+
+            
+            </li>
+            </ul>
+            <ul>
+                <strong>DECOR DESIGNING AND EXECUTION</strong>
+                <li>
+                    With our expertise in decor designing we will together conceptualize your wedding decor. We will assist with creating, finalizing and executing a detailed wedding decor look.
+                </li>
+            </ul>
+            <ul>
+                <strong> PRE-WEDDING FUNCTIONS MANAGEMENT</strong>
+                <li>
+                    All your Pre-wedding functions sangeet, mehendi etc are handle by our expert wedding planners
+                </li>
+            </ul>
+
+        </div>
+        <div class="arrowdesign">
+            <div class="column2">
+
+            <p><strong>VENDOR SOURCING (BOOKINGS)</strong></p>
+            <ul>
+                <li>
+                    Invitation Cards
+                </li>
+                <li>Favors</li>
+                <li>
+                    Beautician
+                </li>
+                <li>Mehendi Artis</li>
+                <li>Band, Ghodi</li>
+                <li>Entertainment(for enjoy)</li>
+                <li>Photographer</li>
+                <li>Cinematographers</li>
+                <li>Turnament Of Joyfull Sport</li>
+            </ul>
+            
+            <p><strong>VENDOR MANAGEMENT</strong></p>
+            <ul>
+                <li>Constant co-ordination with all booked vendors for seamless on-time execution, follow up and cross checking to adhere to all pre-stated requirements.</li>
+            </ul>
+            </div>
+
+        </div>
+        <div class="arrowdesign">
+            <div class="column3">
+                <p><strong>VENUE MANAGEMENT</strong></p>
+                <ul>
+                    <li>Contract Negotiation and Booking</li>
+                    <li>Event Timeline Management</li>
+                    <li>Room Allocation for Destination Weddings</li>
+                    <li>Duty Manager Co-ordination</li>
+                    <li>On-Day Coordination</li>
+                    
+                </ul>
+                <p><strong>GUEST MANAGEMENT</strong></p>
+                <ul>
+                    <li>We will handle the logistics so you can be stress free on your wedding day!</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+        
+  
+</body>
+
+   
+
+</html>
