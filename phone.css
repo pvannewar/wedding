@@ -1,0 +1,222 @@
+@media only screen and (max-width:414px){
+    html,body{
+        width: 100%;
+        
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    /* .phone{
+        width: 35px;
+        height: 5px;
+        background-color: rgb(245, 240, 240);
+        margin: 6px 0;
+        color: aliceblue;
+        display: inline-block;
+    }
+    .phone li a{
+        color: aliceblue;
+        
+    } */
+    .phone{
+        display: inline;
+    }
+    .phone li{
+        text-decoration: none;
+    }
+    /* .navbar{
+        cursor: pointer;
+        
+        
+    } */
+    .phone ul{
+        
+        background-color: pink;
+        margin-top: auto;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    .phone li ul{
+        display: none;
+        width: 100%;
+    }
+    .phone ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        font-style: italic;
+    }
+    .phone li ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        font-style: italic;
+    }
+    /* .navbar div ul li a{
+        display: none;
+    } */
+    .phone ul li:hover>ul{
+        display: inherit;
+        transition-delay:0.25s;
+        transition-duration: 0.25s;
+
+    }
+    .navbar a{
+        margin: -5px;
+        
+    }
+    .navbar ul{
+        display: none;
+    }
+    .search{
+        margin-top: 10px;
+        margin-right: 71px;
+    }
+    
+    .vedio{
+        width: 100%;
+        height: 211px;
+        background-color:  rgb(215, 6, 125);
+        margin-top: 30px;
+    
+    }
+    .titlevenues{
+        margin-left: 79px;
+    }
+    .one{margin-left: -277px;
+        width: 350px;
+        margin-bottom: -58px;
+
+    }
+    .domestictext{
+        margin-left: -210px;
+        margin-top: -72px;
+        font-size: 26px;
+    }
+    
+    /* .two{
+        margin-left: -820px;
+        margin-right: 364px;
+        width: 349px;
+        margin-top: auto;
+        margin-bottom: -50px;
+        display: none;
+    } */
+    
+    .internationtext{
+        margin: auto;
+        margin-left: --193px;
+        font-size: 26px;
+        display: none;
+        
+    }
+    
+    #information li{
+        background-color: rgb(249, 125, 228);
+    }
+
+    #information h1 p{
+        margin-left: -410px;
+        font-size: 34px;
+        margin-top: 30px;
+        width: 100%;
+        font-size: 30px;
+    }
+    #information li p{
+        width: 86%;
+    margin-left: 20px;
+    color: rgb(9, 8, 8);
+    }
+    #Contact ul{      
+        width: 97%;
+    margin-left: 0px;
+    }
+    .form{
+        margin: auto;
+        width: 100%;
+        height: auto;
+
+    }
+    .-right{
+        margin-top: -594px;
+    width: 50%;
+    margin-left: 0px;
+    font-size: 0px;
+    display: none;
+
+    }
+    .sright{
+        /* margin: auto; */
+        margin-right: 7px;
+        font-size: 34px;
+        margin-top: 58px;
+        width: 89%;
+    
+    
+    }
+    .box2{
+        display: none;
+    }
+    .box3{
+        display: none;
+    }
+    .ashokaimg{
+        margin: auto;
+    }
+    .radisonimg{
+        margin: auto;
+        margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -40px;
+    }
+    .weddingheilight{
+        margin-top: 133px;
+    }
+    /* #partners h3{
+         margin: auto;
+        position: relative;
+    margin-top: 26px;
+    margin-bottom: 116px; 
+  
+
+    }
+    #partners h3 i{
+
+    }*/
+    #partners{
+        margin-top: 100px;
+
+    } 
+    .arrowdesign strong{
+        margin: auto;
+        width: 100%;
+        margin-left: -103px;
+        font-size: 13px;
+
+    }
+    .arrowdesign li{
+        height: auto;
+        margin-left: -51px;
+        margin-right: -59px;
+        width: 90%;
+    }
+    
+    .column2{
+        /* margin: auto; */
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 58%;
+    }
+
+    
+    .column3{
+        /* margin: auto; */
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 58%;
+    }
+    .line1{
+        width: 246px;
+    }
+}

@@ -6,8 +6,11 @@
     <title>SHIVA WEDDING PLANER</title>
     <link rel="stylesheet" href="phone.css">
     <style>
+        
         body{
-            background-color: rgba(20,20,20,1);;
+            /* background-color: rgba(20,20,20,1); */
+            background-color: rgba(20,20,20,1);
+  
             
             
         }
@@ -17,15 +20,15 @@
         }
         
         .navbar{
-            background-color: rgb(215, 6, 125);
-            border-radius: 30px;
-            z-index: 100;
+            /* background-color: rgb(215, 6, 125);
+            border-radius: 30px;*/
+            z-index: 100; 
             
         }
         .navbar ul{
             background-color: #fff1ed;
             position: fixed;
-            margin: -12px;
+            margin: -19px;
             box-sizing: border-box;
             z-index: inherit;
             
@@ -131,7 +134,7 @@
             font-size: 56px;
             margin-top: 236px;
         }
-        #information li p{
+        /* #information li p{
             border-bottom: 18px solid rgb(246, 41, 119);
             border-radius: 106px;
             font-size: 23px;
@@ -143,7 +146,7 @@
             margin-top: -108px;
             
 
-        }
+        } */
         #information img{
             display: block;
             overflow: hidden;
@@ -407,8 +410,234 @@
 
         }
         /* .phone{
+
             display: none;
         } */
+        @media only screen and (max-width:414px){
+    html,body{
+        width: 100%;
+        
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    /* .phone{
+        width: 35px;
+        height: 5px;
+        background-color: rgb(245, 240, 240);
+        margin: 6px 0;
+        color: aliceblue;
+        display: inline-block;
+    }
+    .phone li a{
+        color: aliceblue;
+        
+    } */
+    .phone{
+        display: inline;
+    }
+    .phone li{
+        text-decoration: none;
+    }
+    /* .navbar{
+        cursor: pointer;
+        
+        
+    } */
+    .phone ul{
+        
+        background-color: pink;
+        margin-top: auto;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    .phone li ul{
+        display: none;
+        width: 100%;
+    }
+    .phone ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        font-style: italic;
+    }
+    .phone li ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        font-style: italic;
+    }
+    /* .navbar div ul li a{
+        display: none;
+    } */
+    .phone ul li:hover>ul{
+        display: inherit;
+        transition-delay:0.25s;
+        transition-duration: 0.25s;
+
+    }
+    .navbar a{
+        margin: -5px;
+        
+    }
+    .navbar ul{
+        display: none;
+    }
+    .search{
+        margin-top: 10px;
+        margin-right: 71px;
+    }
+    
+    .vedio{
+        width: 100%;
+        height: 211px;
+        background-color:  rgb(215, 6, 125);
+        margin-top: 30px;
+    
+    }
+    .titlevenues{
+        margin-left: 79px;
+    }
+    .one{margin-left: -277px;
+        width: 350px;
+        margin-bottom: -58px;
+
+    }
+    .domestictext{
+        margin-left: -210px;
+        margin-top: -72px;
+        font-size: 26px;
+    }
+    
+    /* .two{
+        margin-left: -820px;
+        margin-right: 364px;
+        width: 349px;
+        margin-top: auto;
+        margin-bottom: -50px;
+        display: none;
+    } */
+    
+    .internationtext{
+        margin: auto;
+        margin-left: --193px;
+        font-size: 26px;
+        display: none;
+        
+    }
+    
+    #information li{
+        background-color: rgb(249, 125, 228);
+    }
+
+    #information h1 p{
+        margin-left: -410px;
+        font-size: 34px;
+        margin-top: 30px;
+        width: 100%;
+        font-size: 30px;
+    }
+    #information li p{
+        width: 86%;
+    margin-left: 20px;
+    color: rgb(9, 8, 8);
+    }
+    #Contact ul{      
+        width: 97%;
+    margin-left: 0px;
+    }
+    .form{
+        margin: auto;
+        width: 100%;
+        height: auto;
+
+    }
+    .-right{
+        margin-top: -594px;
+    width: 50%;
+    margin-left: 0px;
+    font-size: 0px;
+    display: none;
+
+    }
+    .sright{
+        /* margin: auto; */
+        margin-right: 7px;
+        font-size: 34px;
+        margin-top: 58px;
+        width: 89%;
+    
+    
+    }
+    .box2{
+        display: none;
+    }
+    .box3{
+        display: none;
+    }
+    .ashokaimg{
+        margin: auto;
+    }
+    .radisonimg{
+        margin: auto;
+        margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -40px;
+    }
+    .weddingheilight{
+        margin-top: 133px;
+    }
+    /* #partners h3{
+         margin: auto;
+        position: relative;
+    margin-top: 26px;
+    margin-bottom: 116px; 
+  
+
+    }
+    #partners h3 i{
+
+    }*/
+    #partners{
+        margin-top: 100px;
+
+    } 
+    .arrowdesign strong{
+        margin: auto;
+        width: 100%;
+        margin-left: -103px;
+        font-size: 13px;
+
+    }
+    .arrowdesign li{
+        height: auto;
+        margin-left: -51px;
+        margin-right: -59px;
+        width: 90%;
+    }
+    
+    .column2{
+        /* margin: auto; */
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 58%;
+    }
+
+    
+    .column3{
+        /* margin: auto; */
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 58%;
+    }
+    .line1{
+        width: 246px;
+    }
+}
+.phone{
+    display: none;
+}
 
 
 
@@ -420,19 +649,47 @@
     </style>
 </head>
 <body>
-    <div class="phone">
+    <!-- <div class="phone">
         <div></div>
         <div></div>
         <div></div>
-    </div>
+    </div> -->
     <header>
+        <div class="phone">
+            <ul>
+            <li><a href="#"> menu</a> 
+                <ul> 
+                    <!-- <i>Menu</i> -->
+                    <li><a href="#">home</a></li>
+                    <li><a href="#"> About</a></li>
+                    <li><a href="#">Are You Looking For&nbsp; ></a>
+                        <ul class="dropdown1">
+                            <li><a href="#">destination&nbsp; ></a>
+                                <ul class="dropdown2">
+                                    <li><a href="#">Nagpur</a></li>
+                                    <li><a href="#">Chandrapur</a></li>
+                                    <li><a href="#">Mul</a></li>
+                                    <li><a href="#">Gadchiroli</a></li>
+                                    <li><a href="destination.html">Chamorshi</a></li>
+                                    <li><a href="#">At Your Place</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"> international</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </li>
+            </ul>    
+            
+        
+
+            
+        </div>
         
         <nav class="navbar">
-            <div class="phone">
-                <div> </div>
-                <div> </div>
-                <div> </div>
-                </div>
+            
             <ul>
                 
                 <li><a href="#">Home</a></li>
@@ -460,7 +717,7 @@
             <br>
             </nav>
                  <!-- <img src="https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038_640.jpg" width="100px"> -->
-                <video class="vedio" width="1500" height="700" autoplay muted loop style="position: relative;">
+                <video class="vedio" width="1500" height="700" autoplay muted loop style="position: relative; background-color: rgb(215, 6, 125); width: 100%;">
                 <source src="shiva (1).mp4" type="video/mp4">
                     </video>
                 
@@ -508,7 +765,7 @@
 <tr>
 <a id="information">
     <h1><p>Indian Wedding Specialist</p></h1>
-    <li><p>My Wedding Planning specializes in managing just these occasions; from small, intimate family events to large, spectacular celebrations: weddings are the only thing we do! We can plan your entire wedding from venue bookings, vendor management to the overall design and execution.  We offer a personal service, accompanying you not only on your initial viewing of possible venues but on any subsequent visits and for the duration of your wedding, ensuring total dedication to you.
+    <li><p style="color: rgb(248, 244, 244);">My Wedding Planning specializes in managing just these occasions; from small, intimate family events to large, spectacular celebrations: weddings are the only thing we do! We can plan your entire wedding from venue bookings, vendor management to the overall design and execution.  We offer a personal service, accompanying you not only on your initial viewing of possible venues but on any subsequent visits and for the duration of your wedding, ensuring total dedication to you.
 
         At, My Wedding Planning, Destination Wedding Planning is our strongest competence. So if you are planning a destination wedding, let us enhance your wedding experience with our expertise and flawless execution.
         
