@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHIVA WEDDING PLANER</title>
     <link rel="stylesheet" href="phone.css">
-    <link 
     <style>
         
         body{
+            /* background-color: rgba(20,20,20,1); */
             background-color: rgba(20,20,20,1);
   
             
@@ -413,90 +413,86 @@
 
             display: none;
         } */
-        @media only screen and (max-width:414px){
-    html,body{
-        width: 100%;
+    @media only screen and (max-width:414px){
+        html,body{
+            width: 100%;
+            
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
         
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-    /* .phone{
-        width: 35px;
-        height: 5px;
-        background-color: rgb(245, 240, 240);
-        margin: 6px 0;
-        color: aliceblue;
-        display: inline-block;
-    }
-    .phone li a{
-        color: aliceblue;
+        .phone{
+            display: inline;
+        }
+        .phone li{
+            text-decoration: none;
+        }
+    /* .navbar{
+        cursor: pointer;
+        
         
     } */
-    .phone{
-        display: inline;
-    }
-    .phone li{
-        text-decoration: none;
-    }
+        .phone ul{
+            
+            background-color: pink;
+            margin-top: auto;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+        }
+        .phone li ul{
+            display: none;
+            width: 100%;
+        }
+        .phone ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 21px;
+            font-style: italic;
+        }
+        .phone li ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 21px;
+            font-style: italic;
+        }
+        /* .navbar div ul li a{
+            display: none;
+        } */
+        .phone ul li:hover>ul{
+            display: inherit;
+            transition-delay:0.25s;
+            transition-duration: 0.25s;
 
-    .phone ul{
-        background-color: pink;
-        margin-top: auto;
-        position: fixed;
-        width: 100%;
-        z-index: 1;
-    }
-    .phone li ul{
-        display: none;
-        width: 100%;
-    }
-    .phone ul li a{
-        text-decoration: none;
-        color: white;
-        font-size: 21px;
-        font-style: italic;
-    }
-    .phone li ul li a{
-        text-decoration: none;
-        color: white;
-        font-size: 21px;
-        font-style: italic;
-    }
-    
-    .phone ul li:hover>ul{
-        display: inherit;
-        transition-delay:0.25s;
-        transition-duration: 0.25s;
+        }
+       
+        .search{
+            margin-top: 10px;
+            margin-right: 71px;
+        }
+        
+        .vedio{
+            width: 100%;
+            height: 211px;
+            background-color:  rgb(215, 6, 125);
+            margin-top: 30px;
+        
+        }
+        .titlevenues{
+            margin-left: 79px;
+        }
+        .one{margin-left: -248px;
+            width: 350px;
+            margin-bottom: -58px;
 
-    }
-   
-    .search{
-        margin-top: 10px;
-        margin-right: 71px;
-    }
-    
-    .vedio{
-        width: 100%;
-        height: 211px;
-        background-color:  rgb(215, 6, 125);
-        margin-top: 30px;
-    
-    }
-    .titlevenues{
-        margin-left: 79px;
-    }
-    .one{margin-left: -249px;
-        width: 350px;
-        margin-bottom: -58px;
-
-    }
-    .domestictext{
-        margin-left: -210px;
-        margin-top: -72px;
-        font-size: 26px;
-    }
-    
+        }
+        .domestictext{
+            margin-left: -210px;
+            margin-top: -72px;
+            font-size: 26px;
+        }
+        
     /* .two{
         margin-left: -820px;
         margin-right: 364px;
