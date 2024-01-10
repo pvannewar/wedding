@@ -4,27 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>destination wedding</title>
+    <link rel="stylesheet" href="destinationphoe.css">
     <style>
         #village h1{
-            margin-left: 673px;
-        }
+            width: 100%;
+            text-align: center;
+        }  
 
         #vedio1{
             background-color: rgb(215, 6, 125);
+            
         }
+        #vedio1 video{
+            width: 90%;
+            height: 100%;
+            margin-left: 51px;
+            margin-bottom: -4px;
+        }
+        #info-village-wedding{
+                width: 100%;
+                text-align: center;
+            }
+        #info-village-wedding header{
+            font-size: xx-large;
+            margin-top: 30px;
+        }
+        #info-village-wedding p{
+                width: 100%;
+                text-align: center;
+            }
+        .menu {display: none;
+
+        }
+                
+        @media only screen and (max-width:400px){
+            html,body{
+                    width: 100%;
+                    overflow-x: hidden;
+                    margin: auto;
+                }
+            #vedio1 video{
+                width: 95%;
+                margin-left: 11px;
+                height: 200px;
+  
+                }
+            #vedio1{
+                width: 100%;
+                margin-left: -9px;
+                padding-left: 7px;
+                height: 200px;
+                }
+            #info-village-wedding{
+                width: 100%;
+                text-align: center;
+            }
+            #info-village-wedding header{
+                font-size: xx-large;
+                margin-top: 30px;
+            }
+            #info-village-wedding p{
+                width: 100%;
+                text-align: center;
+            }
+            :marker{
+                display: none;
+            }
+            .menu{
+                background-color: #f4d6e9;
+                width: 100%;
+                height: 100px;
+                position: fixed;
+                display: inherit;
+
+            }
+            #village{
+                margin-top: 115px;
+            }
+            img{
+                width: 26%;
+                height: 100px;
+                text-align: center;
+                margin-left: 37%;
+                display: inline-block;
+                opacity: 0.8;
+                margin-bottom: 23px;
+
+            }
+            .bar div{
+                
+                width: 29px;
+                background-color: black;
+                height: 5px;
+                margin-top: 36px;
+                margin-left: 63px;
+                margin-bottom: -29px;
+  
+
+            }
+            .bar{
+                margin-top: -130px;
+                margin-left: -55px;
+  
+            }
+                
+                
+
+        }
+    
 
     </style>
 </head>
 <body>
+    <div class="menu">
+        <img src="logo.JPG">
+        <div class="bar">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+
+    </div>
     <div id="village" >
         <h1> Chamorshi</h1>
     </div>
 
     <div id="vedio1">
-    <video width="1500px" height="700" autoplay muted loop>
+    <video autoplay muted loop>
         <source src="03 - Trim.mp4" type="video/mp4">
     </video>
     </div>
+    <div id="info-village-wedding">
+        <div>
+            <header> Weddding In Our Village,Chamorshi</header>
+        </div>
+        <p> In our village, the wedding unfolds with a tapestry of tradition and joy. Villagers, adorned in vibrant attire, gather for sacred rituals that echo ancestral customs. The air resonates with indigenous music, creating a harmonious backdrop to the union. Colorful tents host a feast of local culinary delights, fostering community bonds. The village square transforms into a dance floor, where generations join hands in celebration. Laughter and heartfelt conversations weave a sense of unity, leaving an indelible mark on our tight-knit community—a testament to the enduring spirit of love and tradition in our village. </p>
+
+    </div>
+    
     
 </body>
 </html>
