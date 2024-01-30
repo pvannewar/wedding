@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.choice:hover{
+    opacity: 0.5;
+}
+#choices{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#score{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+#user{
+    
+    text-align: center;
+    font-size: 38px;
+    margin: 0px;
+      
+}
+#computer{
+    text-align: center;
+    font-size: 38px;
+    margin: 0px;
+  
+}
+#result{
+    display: flex;
+    justify-content: center;
+}
+#move{
+    display: inline;
+    background-color: black;
+    color: white;
+    font-size: 38px;
+}
