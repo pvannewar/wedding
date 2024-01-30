@@ -4,14 +4,14 @@ body{
 }
 h1{
     height: 20px;
-    display: flex;
-    justify-content: center;
-}
+    text-align: center;
+} 
 
 .choice:hover{
     opacity: 0.5;
 }
 #choices{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -48,4 +48,15 @@ img{
     background-color: black;
     color: white;
     font-size: 38px;
+}
+.choice p{
+    text-align: center;
+    font-size: 39px;
+}
+@media only screen and (max-width:400px){
+    #choices{
+        margin-top: 100px;
+        display: grid;
+    }
+    
 }
